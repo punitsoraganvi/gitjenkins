@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[python]]>
+    </line>
+    <line>
+      <![CDATA[java]]>
+    </line>
+    <line>
+      <![CDATA[selenium]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="100" started-at="2022-08-08T16:20:07 IST" finished-at="2022-08-08T16:20:07 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="100" started-at="2022-08-08T16:20:07 IST" finished-at="2022-08-08T16:20:07 IST">
+      <class name="scripts.Test1">
+        <test-method status="PASS" signature="tc1()[pri:0, instance:scripts.Test1@335eadca]" name="tc1" duration-ms="2" started-at="2022-08-08T16:20:07 IST" finished-at="2022-08-08T16:20:07 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[selenium]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- scripts.Test1 -->
+      <class name="scripts.Test3">
+        <test-method status="PASS" signature="tc3()[pri:0, instance:scripts.Test3@185d8b6]" name="tc3" duration-ms="9" started-at="2022-08-08T16:20:07 IST" finished-at="2022-08-08T16:20:07 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[python]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+      </class> <!-- scripts.Test3 -->
+      <class name="scripts.Test2">
+        <test-method status="PASS" signature="tc2()[pri:0, instance:scripts.Test2@67784306]" name="tc2" duration-ms="0" started-at="2022-08-08T16:20:07 IST" finished-at="2022-08-08T16:20:07 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[java]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+      </class> <!-- scripts.Test2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
